@@ -6,6 +6,9 @@ $(document).ready(function ($) {
 	    $('html').toggleClass('expanded');
     });
     
+	$(document).ready(function() {
+//put sumn here
+});
     
     // Slide Toggles
     
