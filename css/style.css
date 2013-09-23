@@ -496,14 +496,18 @@ a:hover {
 
 .service:hover {
 	background-color:#f5f7f8;
-	border-bottom:5px #c0392b solid; 
 }
 
 
 /* Section 3 */ 
 
 #section3 {
-	background-image:url(../img/project-bg.jpg);
+	background-image:url(../img/project-bg.jpg); 
+	-webkit-background-size: 100% auto;
+	-moz-background-size: 100% auto;
+	-o-background-size: 100% auto;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
 	color: #F1F1F1;
 }
 
@@ -519,7 +523,7 @@ a:hover {
 	-moz-border-radius: 15px; 
 	border-radius: 15px;
 	
-}
+} 
 
 #section3 h6 {
 	color:#bdc3c7;
